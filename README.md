@@ -1,21 +1,34 @@
-<h1 align="center">
-  DEMONSTRAÇÃO
-</h1>
 
-<p align="center">
-  <img src="./src/assets/demoDesafio02.gif" 
-  height="425" widght="200">
-</p>
+## Instalação das dependências: 
+**Para instalar as bibliotecas utilizadas neste projeto basta utilizar o comando:** 
 
-## Sobre o projeto: 
-**Este desafio é uma continuação do [Desafio 01](https://github.com/JoseCarlos33/Desafio01-Trilha-React-Native-Rocketseat-Ignite) do curso Ignite da Rocketseat, que consiste da criação de um botão que possibilite a troca de temas após ser clicado**
+```sh
+   yarn
+```
+**ou também:**
 
-## Para este projeto foi utilizado:
+```sh
+   npm i
+```
 
-* [ ] React Native
-* [ ] TypeScript
-* [ ] Context API
-* [ ] Icon
+## Passos para execução do teste:
+
+**1º passo: Abrir emulador android**
+
+**2º passo: Iniciar o metro:**
+```sh
+   yarn start
+```
+
+**3º passo: Instalar app no emulador:**
+```sh
+   yarn android
+```
+
+**4º passo: Executar o teste:**
+```sh
+   yarn detox test -c android.emu.debug
+```
 
 ## Autor
 
